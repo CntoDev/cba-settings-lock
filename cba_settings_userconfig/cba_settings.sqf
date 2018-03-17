@@ -205,12 +205,12 @@ force force ace_mk6mortar_useAmmoHandling = false;
 ace_nametags_defaultNametagColor = [0.77,0.51,0.08,1];
 force force ace_nametags_playerNamesMaxAlpha = 0.8;
 force force ace_nametags_playerNamesViewDistance = 10;
-force ace_nametags_showCursorTagForVehicles = false;
-ace_nametags_showNamesForAI = false;
+force force ace_nametags_showCursorTagForVehicles = false;
+force force ace_nametags_showNamesForAI = false;
 ace_nametags_showPlayerNames = 1;
 ace_nametags_showPlayerRanks = true;
 ace_nametags_showSoundWaves = 1;
-ace_nametags_showVehicleCrewInfo = true;
+force force ace_nametags_showVehicleCrewInfo = true;
 ace_nametags_tagSize = 2;
 
 // ACE Nightvision
@@ -339,8 +339,8 @@ force force ace_vehiclelock_lockVehicleInventory = true;
 force force ace_vehiclelock_vehicleStartingLockState = -1;
 
 // ACE View Distance Limiter
-force ace_viewdistance_enabled = false;
-force ace_viewdistance_limitViewDistance = 12000;
+ace_viewdistance_enabled = false;
+ace_viewdistance_limitViewDistance = 12000;
 ace_viewdistance_objectViewDistanceCoeff = 0;
 ace_viewdistance_viewDistanceAirVehicle = 0;
 ace_viewdistance_viewDistanceLandVehicle = 0;
@@ -354,7 +354,7 @@ force force ace_reload_displayText = true;
 // ACE Weather
 force force ace_weather_enabled = true;
 force force ace_weather_updateInterval = 60;
-force force ace_weather_windSimulation = true;
+force force ace_weather_windSimulation = false;
 
 // ACE Wind Deflection
 force force ace_winddeflection_enabled = true;
