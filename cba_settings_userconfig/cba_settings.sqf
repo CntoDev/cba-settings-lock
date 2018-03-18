@@ -339,12 +339,12 @@ force force ace_vehiclelock_lockVehicleInventory = true;
 force force ace_vehiclelock_vehicleStartingLockState = -1;
 
 // ACE View Distance Limiter
-ace_viewdistance_enabled = false;
-ace_viewdistance_limitViewDistance = 12000;
+force force ace_viewdistance_enabled = true;
+force ace_viewdistance_limitViewDistance = 10000;
 ace_viewdistance_objectViewDistanceCoeff = 0;
-ace_viewdistance_viewDistanceAirVehicle = 0;
-ace_viewdistance_viewDistanceLandVehicle = 0;
-ace_viewdistance_viewDistanceOnFoot = 0;
+ace_viewdistance_viewDistanceAirVehicle = 9;
+ace_viewdistance_viewDistanceLandVehicle = 6;
+ace_viewdistance_viewDistanceOnFoot = 3;
 
 // ACE Weapons
 force force ace_common_persistentLaserEnabled = true;
