@@ -37,7 +37,7 @@ force force ace_captives_requireSurrenderAi = false;
 
 // ACE Common
 force force ace_common_allowFadeMusic = true;
-force force ace_common_checkPBOsAction = 0;
+force force ace_common_checkPBOsAction = 2;
 force force ace_common_checkPBOsCheckAll = false;
 force force ace_common_checkPBOsWhitelist = "[]";
 ace_common_displayTextColor = [0,0,0,0.1];
