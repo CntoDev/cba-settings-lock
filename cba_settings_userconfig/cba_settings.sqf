@@ -399,11 +399,11 @@ force acex_field_rations_timeWithoutWater = 2;
 acex_fortify_settingHint = 2;
 
 // ACEX Headless
-force acex_headless_delay = 15;
-force acex_headless_enabled = false;
-force acex_headless_endMission = 0;
+force force acex_headless_delay = 15;
+force acex_headless_enabled = true;
+force force acex_headless_endMission = 0;
 force acex_headless_log = false;
-force acex_headless_transferLoadout = 0;
+force force acex_headless_transferLoadout = 1;
 
 // ACEX Sitting
 force force acex_sitting_enable = true;
@@ -691,6 +691,23 @@ force force grad_trenches_functions_shortEnvelopeDigTime = 20;
 force force grad_trenches_functions_smallEnvelopeDigTime = 30;
 force force grad_trenches_functions_stopBuildingAtFatigueMax = false;
 force force grad_trenches_functions_vehicleEnvelopeDigTime = 120;
+
+// LAMBS - Danger
+force lambs_danger_CQB_range = 50;
+force lambs_danger_debug_Drawing = false;
+force lambs_danger_debug_FSM = false;
+force lambs_danger_debug_FSM_civ = false;
+force lambs_danger_debug_functions = false;
+force lambs_danger_disableAIPlayerGroup = false;
+force lambs_danger_disableAIPlayerGroupSuppression = false;
+force lambs_danger_minSuppression_range = 25;
+force lambs_danger_panic_chance = 10;
+force lambs_danger_radio_backpack = 2000;
+force lambs_danger_radio_EAST = 500;
+force lambs_danger_radio_GUER = 500;
+force lambs_danger_radio_shout = 50;
+force lambs_danger_radio_WEST = 500;
+force lambs_danger_RenderExpectedDestination = false;
 
 // NIArms
 force niarms_accswitch = true;
