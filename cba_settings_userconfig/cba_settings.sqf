@@ -651,18 +651,39 @@ Achilles_var_moduleTreeHelmet = false;
 Achilles_var_moduleTreeSearchPatch = false;
 
 // ACRE2
+force force acre_sys_core_automaticAntennaDirection = true;
+acre_sys_core_defaultRadioVolume = 0.8;
 force force acre_sys_core_fullDuplex = true;
 force force acre_sys_core_ignoreAntennaDirection = true;
 force force acre_sys_core_interference = false;
 force force acre_sys_core_postmixGlobalVolume = 3;
-acre_sys_core_premixGlobalVolume = 1;
-force force acre_sys_core_revealToAI = true;
-acre_sys_core_spectatorVolume = 1;
-force force acre_sys_core_terrainLoss = 0;
+force force acre_sys_core_premixGlobalVolume = 1;
+force force acre_sys_core_revealToAI = 1;
+acre_sys_core_spectatorVolume = 0.8;
+force force acre_sys_core_terrainLoss = 0.5;
 force acre_sys_core_ts3ChannelName = "";
 force acre_sys_core_ts3ChannelPassword = "";
-acre_sys_core_ts3ChannelSwitch = false;
+force force acre_sys_core_ts3ChannelSwitch = false;
 force force acre_sys_core_unmuteClients = true;
+force force acre_sys_signal_signalModel = 1;
+
+// ACRE2 UI
+acre_sys_gui_volumeColorScale = [[1,1,0,0.5],[1,0.83,0,0.5],[1,0.65,0,0.5],[1,0.44,0,0.5],[1,0,0,0.5]];
+acre_sys_list_CycleRadiosColor = [0.66,0.05,1,1];
+acre_sys_list_DefaultPTTColor = [1,0.8,0,1];
+acre_sys_list_HintBackgroundColor = [0,0,0,0.8];
+acre_sys_list_HintTextFont = "RobotoCondensed";
+acre_sys_list_LanguageColor = [1,0.29,0.16,1];
+acre_sys_list_PTT1Color = [1,0.8,0,1];
+acre_sys_list_PTT2Color = [1,0.8,0,1];
+acre_sys_list_PTT3Color = [1,0.8,0,1];
+acre_sys_list_SwitchChannelColor = [0.66,0.05,1,1];
+acre_sys_list_ToggleHeadsetColor = [0.66,0.05,1,1];
+
+// ACRE2 Zeus
+force force acre_sys_zeus_zeusCanSpectate = true;
+acre_sys_zeus_zeusCommunicateViaCamera = false;
+force force acre_sys_zeus_zeusDefaultVoiceSource = false;
 
 // CBA UI
 cba_ui_notifyLifetime = 4;
