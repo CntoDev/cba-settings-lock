@@ -720,6 +720,7 @@ force lambs_danger_debug_FSM = false;
 force lambs_danger_debug_FSM_civ = false;
 force lambs_danger_debug_functions = false;
 force lambs_danger_disableAIPlayerGroup = false;
+lambs_danger_disableAIPlayerGroupReaction = false;
 force lambs_danger_disableAIPlayerGroupSuppression = false;
 force lambs_danger_minSuppression_range = 25;
 force lambs_danger_panic_chance = 10;
