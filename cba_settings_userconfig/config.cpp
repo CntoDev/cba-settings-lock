@@ -1,4 +1,3 @@
-
 class CfgPatches {
     class cba_settings_userconfig {
         author = "$STR_CBA_Author";
