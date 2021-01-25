@@ -181,13 +181,13 @@ ace_markers_timestampHourFormat = 24;
 ace_map_gestures_allowCurator = true;
 ace_map_gestures_allowSpectator = true;
 ace_map_gestures_briefingMode = 0;
-force force ace_map_gestures_defaultColor = [1,0.88,0,0.7];
-force force ace_map_gestures_defaultLeadColor = [1,0.88,0,0.95];
+ace_map_gestures_defaultColor = [1,0.88,0,0.7];
+ace_map_gestures_defaultLeadColor = [1,0.88,0,0.95];
 force force ace_map_gestures_enabled = true;
 force force ace_map_gestures_interval = 0.03;
 force force ace_map_gestures_maxRange = 7;
 force ace_map_gestures_maxRangeCamera = 14;
-force force ace_map_gestures_nameTextColor = [0.2,0.2,0.2,0.3];
+ace_map_gestures_nameTextColor = [0.2,0.2,0.2,0.3];
 force ace_map_gestures_onlyShowFriendlys = false;
 
 // ACE Map Tools
@@ -287,7 +287,7 @@ force force ace_nightvision_shutterEffects = true;
 force force ace_overheating_displayTextOnJam = true;
 force force ace_overheating_enabled = true;
 force force ace_overheating_overheatingDispersion = true;
-force force ace_overheating_showParticleEffects = false;
+ace_overheating_showParticleEffects = false;
 ace_overheating_showParticleEffectsForEveryone = false;
 force force ace_overheating_unJamFailChance = 0.1;
 force force ace_overheating_unJamOnreload = false;
@@ -311,7 +311,7 @@ force force ace_pylons_timePerPylon = 5;
 force force ace_quickmount_distance = 3;
 force force ace_quickmount_enabled = true;
 ace_quickmount_enableMenu = 3;
-force force ace_quickmount_priority = 0;
+ace_quickmount_priority = 0;
 force force ace_quickmount_speed = 18;
 
 // ACE Respawn
@@ -362,7 +362,7 @@ force force ace_microdagr_mapDataAvailable = 2;
 force ace_microdagr_waypointPrecision = 3;
 ace_optionsmenu_showNewsOnMainMenu = true;
 force force ace_overpressure_distanceCoefficient = 1;
-force force ace_tagging_quickTag = 1;
+ace_tagging_quickTag = 1;
 
 // ACE User Interface
 force force ace_ui_allowSelectiveUI = false;
@@ -413,7 +413,7 @@ ace_vehicles_speedLimiterStep = 5;
 
 // ACE View Distance Limiter
 force force ace_viewdistance_enabled = true;
-force ace_viewdistance_limitViewDistance = 10000;
+ace_viewdistance_limitViewDistance = 10000;
 ace_viewdistance_objectViewDistanceCoeff = 0;
 ace_viewdistance_viewDistanceAirVehicle = 9;
 ace_viewdistance_viewDistanceLandVehicle = 6;
@@ -758,7 +758,7 @@ acre_sys_core_godVolume = 1;
 force force acre_sys_core_ignoreAntennaDirection = true;
 force force acre_sys_core_interference = false;
 acre_sys_core_postmixGlobalVolume = 1;
-force force acre_sys_core_premixGlobalVolume = 1;
+acre_sys_core_premixGlobalVolume = 1;
 force force acre_sys_core_revealToAI = 1;
 acre_sys_core_spectatorVolume = 0.8;
 force force acre_sys_core_terrainLoss = 0.5;
