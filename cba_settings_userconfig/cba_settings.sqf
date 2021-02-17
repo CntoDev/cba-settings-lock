@@ -162,7 +162,7 @@ force force ace_magazinerepack_timePerBeltLink = 8;
 force force ace_magazinerepack_timePerMagazine = 2;
 
 // ACE Map
-force ace_map_BFT_Enabled = true;
+force ace_map_BFT_Enabled = false;
 force ace_map_BFT_HideAiGroups = true;
 force force ace_map_BFT_Interval = 1;
 force ace_map_BFT_ShowPlayerNames = false;
@@ -532,14 +532,14 @@ acre_sys_zeus_zeusCommunicateViaCamera = false;
 acre_sys_zeus_zeusDefaultVoiceSource = false;
 
 // Aircraft Turbulence
-HELICOPTER_TURBULENCE_ENABLE_MASTER = true;
-HELICOPTER_TURBULENCE_ENABLE_WEATHEREFFECT = true;
-HELICOPTER_TURBULENCE_MAX_TURBULENCE = 15;
-HELICOPTER_TURBULENCE_MIN_TURBULENCE = 3;
-PLANE_TURBULENCE_ENABLE_MASTER = true;
-PLANE_TURBULENCE_ENABLE_WEATHEREFFECT = true;
-PLANE_TURBULENCE_MAX_TURBULENCE = 15;
-PLANE_TURBULENCE_MIN_TURBULENCE = 3;
+force force HELICOPTER_TURBULENCE_ENABLE_MASTER = true;
+force force HELICOPTER_TURBULENCE_ENABLE_WEATHEREFFECT = true;
+force force HELICOPTER_TURBULENCE_MAX_TURBULENCE = 15;
+force force HELICOPTER_TURBULENCE_MIN_TURBULENCE = 3;
+force force PLANE_TURBULENCE_ENABLE_MASTER = true;
+force force PLANE_TURBULENCE_ENABLE_WEATHEREFFECT = true;
+force force PLANE_TURBULENCE_MAX_TURBULENCE = 15;
+force force PLANE_TURBULENCE_MIN_TURBULENCE = 3;
 
 // Arma Additions
 force force a3aa_disable_channels_default = 0;
@@ -554,11 +554,11 @@ force force a3aa_infopanel_control_MineDetectorDisplay = true;
 force force a3aa_infopanel_control_MinimapDisplay = true;
 force force a3aa_infopanel_control_SlingLoadDisplay = true;
 force force a3aa_infopanel_control_UAVDisplay = true;
-force a3aa_insta_arsenal_allow_for_curator = true;
-force force a3aa_map_trackers_group_showai = true;
+force force a3aa_insta_arsenal_allow_for_curator = true;
+force a3aa_map_trackers_group_showai = false;
 force force a3aa_map_trackers_group_shownames = true;
 force force a3aa_map_trackers_group_showself = "ifnotsoldier";
-force force a3aa_map_trackers_group_status = "disabled";
+force a3aa_map_trackers_group_status = "allies";
 force force a3aa_map_trackers_unit_dist = "100";
 force force a3aa_map_trackers_unit_iconsource = "guess";
 a3aa_map_trackers_unit_showlines = true;
@@ -714,13 +714,13 @@ force force emr_main_staminaCoefficient = 1;
 force force emr_main_whitelistStr = "";
 
 // F/A-18
-js_jc_fa18_advancedStart = false;
-js_jc_fa18_atflirRequire = true;
-js_jc_fa18_canopyLoss = false;
+force force js_jc_fa18_advancedStart = true;
+force force js_jc_fa18_atflirRequire = true;
+force force js_jc_fa18_canopyLoss = true;
 js_jc_fa18_cursorSensitivity = 1;
 js_jc_fa18_interactCursor = false;
-js_jc_fa18_interactionRadiusMod = 1;
-js_jc_fa18_mav_tdcDepressRequiredForMove = false;
+js_jc_fa18_interactionRadiusMod = 1.10;
+force force js_jc_fa18_mav_tdcDepressRequiredForMove = false;
 js_jc_fa18_showLabels = true;
 
 // GRAD Trenches
