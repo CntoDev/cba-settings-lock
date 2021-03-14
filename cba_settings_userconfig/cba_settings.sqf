@@ -608,8 +608,8 @@ force force diwako_dui_indicators_icon_medic = true;
 force force diwako_dui_indicators_range = 60;
 force force diwako_dui_indicators_range_crew = 300;
 force force diwako_dui_indicators_range_scale = false;
-force diwako_dui_indicators_show = true;
-force force diwako_dui_indicators_size = 1;
+diwako_dui_indicators_show = true;
+diwako_dui_indicators_size = 1;
 force force diwako_dui_indicators_style = "standard";
 force force diwako_dui_indicators_useACENametagsRange = false;
 
@@ -650,10 +650,10 @@ force force diwako_dui_nametags_showUnconAsDead = true;
 force force diwako_dui_nametags_useSideIsFriendly = true;
 
 // DUI - Squad Radar - Radar
-force force diwako_dui_compass_hide_alone_group = false;
-force force diwako_dui_compass_hide_blip_alone_group = false;
+diwako_dui_compass_hide_alone_group = false;
+diwako_dui_compass_hide_blip_alone_group = false;
 force force diwako_dui_compass_icon_scale = 1.3;
-force force diwako_dui_compass_opacity = 1;
+diwako_dui_compass_opacity = 1;
 force diwako_dui_compass_style = ["\z\diwako_dui\addons\radar\UI\compass_styles\classic\limited.paa","\z\diwako_dui\addons\radar\UI\compass_styles\classic\full.paa"];
 force force diwako_dui_compassRange = 50;
 force force diwako_dui_compassRefreshrate = 0;
@@ -666,8 +666,8 @@ force diwako_dui_enable_occlusion = false;
 force force diwako_dui_enable_occlusion_cone = 360;
 diwako_dui_hudScaling = 1.55;
 force force diwako_dui_namelist = true;
-force force diwako_dui_namelist_bg = 0;
-force force diwako_dui_namelist_only_buddy_icon = false;
+diwako_dui_namelist_bg = 0;
+diwako_dui_namelist_only_buddy_icon = false;
 diwako_dui_namelist_size = 1.45;
 diwako_dui_namelist_text_shadow = 2;
 force force diwako_dui_namelist_width = 180;
@@ -676,8 +676,8 @@ force force diwako_dui_radar_ace_medic = true;
 force force diwako_dui_radar_compassRangeCrew = 500;
 diwako_dui_radar_dir_padding = 25;
 force diwako_dui_radar_group_by_vehicle = false;
-force force diwako_dui_radar_icon_opacity = 1;
-force force diwako_dui_radar_icon_opacity_no_player = true;
+diwako_dui_radar_icon_opacity = 1;
+diwako_dui_radar_icon_opacity_no_player = true;
 force force diwako_dui_radar_icon_scale_crew = 6;
 force force diwako_dui_radar_leadingZeroes = true;
 force force diwako_dui_radar_namelist_hideWhenLeader = false;
@@ -692,8 +692,8 @@ force force diwako_dui_radar_showSpeaking_radioOnly = true;
 force force diwako_dui_radar_showSpeaking_replaceIcon = false;
 force force diwako_dui_radar_sortType = "none";
 force force diwako_dui_radar_sqlFirst = false;
-force diwako_dui_radar_vehicleCompassEnabled = true;
-force force diwako_dui_use_layout_editor = false;
+force force diwako_dui_radar_vehicleCompassEnabled = false;
+diwako_dui_use_layout_editor = false;
 
 // Enhanced Movement Rework
 force force emr_main_allowMidairClimbing = true;
