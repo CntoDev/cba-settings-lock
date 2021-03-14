@@ -597,7 +597,7 @@ cnto_littlebird_hud_enable = true;
 cnto_nv_color_mask_rgb = [0,0,0];
 
 // Community Base Addons - Network
-force force cba_network_loadoutValidation = 1;
+force force cba_network_loadoutValidation = 2;
 
 // DUI - Squad Radar - Indicators
 force diwako_dui_indicators_crew_range_enabled = true;
