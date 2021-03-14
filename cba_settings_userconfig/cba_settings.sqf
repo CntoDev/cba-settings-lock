@@ -111,6 +111,7 @@ force force ace_hearing_unconsciousnessVolume = 0.4;
 force force ace_interaction_disableNegativeRating = true;
 force force ace_interaction_enableMagazinePassing = true;
 force force ace_interaction_enableTeamManagement = true;
+ace_interaction_enableWeaponAttachments = true;
 
 // ACE Interaction Menu
 ace_gestures_showOnInteractionMenu = 2;
@@ -122,6 +123,7 @@ ace_interact_menu_colorShadowMax = [0,0,0,1];
 ace_interact_menu_colorShadowMin = [0,0,0,0.25];
 ace_interact_menu_colorTextMax = [1,1,1,1];
 ace_interact_menu_colorTextMin = [1,1,1,0.25];
+ace_interact_menu_consolidateSingleChild = false;
 ace_interact_menu_cursorKeepCentered = true;
 ace_interact_menu_cursorKeepCenteredSelfInteraction = false;
 ace_interact_menu_menuAnimationSpeed = 0;
@@ -215,6 +217,7 @@ ace_medical_gui_openAfterTreatment = true;
 force force ace_medical_ivFlowRate = 2;
 force force ace_medical_limping = 1;
 force force ace_medical_painCoefficient = 1;
+force ace_medical_painUnconsciousChance = 0.1;
 force force ace_medical_playerDamageThreshold = 2;
 force force ace_medical_spontaneousWakeUpChance = 0.2;
 force force ace_medical_spontaneousWakeUpEpinephrineBoost = 30;
@@ -240,6 +243,7 @@ force force ace_medical_treatment_cprSuccessChance = 0.75;
 force force ace_medical_treatment_holsterRequired = 0;
 force force ace_medical_treatment_litterCleanupDelay = 600;
 force force ace_medical_treatment_locationEpinephrine = 0;
+force ace_medical_treatment_locationIV = 0;
 force force ace_medical_treatment_locationPAK = 0;
 force force ace_medical_treatment_locationsBoostTraining = true;
 force force ace_medical_treatment_locationSurgicalKit = 0;
@@ -577,6 +581,7 @@ BWA3_Puma_ClocknumbersDir_Commander = false;
 BWA3_Puma_ClocknumbersDir_Gunner = false;
 
 // CBA UI
+cba_diagnostic_ConsoleIndentType = -1;
 cba_ui_notifyLifetime = 4;
 cba_ui_StorePasswords = 1;
 
@@ -590,6 +595,9 @@ cba_optics_usePipOptics = true;
 cnto_littlebird_hud_colour = [0.3,1,0.3,0.5];
 cnto_littlebird_hud_enable = true;
 cnto_nv_color_mask_rgb = [0,0,0];
+
+// Community Base Addons - Network
+force cba_network_loadoutValidation = 1;
 
 // DUI - Squad Radar - Indicators
 force diwako_dui_indicators_crew_range_enabled = true;
@@ -719,7 +727,7 @@ force force js_jc_fa18_atflirRequire = true;
 force force js_jc_fa18_canopyLoss = true;
 js_jc_fa18_cursorSensitivity = 1;
 js_jc_fa18_interactCursor = false;
-js_jc_fa18_interactionRadiusMod = 1.10;
+js_jc_fa18_interactionRadiusMod = 1.1;
 force force js_jc_fa18_mav_tdcDepressRequiredForMove = false;
 js_jc_fa18_showLabels = true;
 
