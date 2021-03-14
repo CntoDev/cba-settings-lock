@@ -111,7 +111,7 @@ force force ace_hearing_unconsciousnessVolume = 0.4;
 force force ace_interaction_disableNegativeRating = true;
 force force ace_interaction_enableMagazinePassing = true;
 force force ace_interaction_enableTeamManagement = true;
-ace_interaction_enableWeaponAttachments = true;
+force force ace_interaction_enableWeaponAttachments = true;
 
 // ACE Interaction Menu
 ace_gestures_showOnInteractionMenu = 2;
@@ -217,7 +217,7 @@ ace_medical_gui_openAfterTreatment = true;
 force force ace_medical_ivFlowRate = 2;
 force force ace_medical_limping = 1;
 force force ace_medical_painCoefficient = 1;
-force ace_medical_painUnconsciousChance = 0.1;
+force force ace_medical_painUnconsciousChance = 0.1;
 force force ace_medical_playerDamageThreshold = 2;
 force force ace_medical_spontaneousWakeUpChance = 0.2;
 force force ace_medical_spontaneousWakeUpEpinephrineBoost = 30;
@@ -243,7 +243,7 @@ force force ace_medical_treatment_cprSuccessChance = 0.75;
 force force ace_medical_treatment_holsterRequired = 0;
 force force ace_medical_treatment_litterCleanupDelay = 600;
 force force ace_medical_treatment_locationEpinephrine = 0;
-force ace_medical_treatment_locationIV = 0;
+force force ace_medical_treatment_locationIV = 0;
 force force ace_medical_treatment_locationPAK = 0;
 force force ace_medical_treatment_locationsBoostTraining = true;
 force force ace_medical_treatment_locationSurgicalKit = 0;
@@ -597,7 +597,7 @@ cnto_littlebird_hud_enable = true;
 cnto_nv_color_mask_rgb = [0,0,0];
 
 // Community Base Addons - Network
-force cba_network_loadoutValidation = 1;
+force force cba_network_loadoutValidation = 1;
 
 // DUI - Squad Radar - Indicators
 force diwako_dui_indicators_crew_range_enabled = true;
