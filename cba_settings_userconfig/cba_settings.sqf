@@ -553,11 +553,6 @@ a3aa_ee_extended_gear_player_insignia = "";
 force force a3aa_ee_extended_gear_useprofile = true;
 force force a3aa_grasskeys_enable = true;
 force a3aa_grasskeys_hidegrass = true;
-force force a3aa_infopanel_control_CrewDisplay = true;
-force force a3aa_infopanel_control_MineDetectorDisplay = true;
-force force a3aa_infopanel_control_MinimapDisplay = true;
-force force a3aa_infopanel_control_SlingLoadDisplay = true;
-force force a3aa_infopanel_control_UAVDisplay = true;
 force force a3aa_insta_arsenal_allow_for_curator = true;
 force a3aa_map_trackers_group_showai = false;
 force force a3aa_map_trackers_group_shownames = true;
@@ -754,30 +749,15 @@ force force grad_trenches_functions_timeoutToDecay = 7200;
 force force grad_trenches_functions_vehicleEnvelopeDigTime = 120;
 
 // LAMBS Danger
-force lambs_danger_combatShareRange = 200;
 force lambs_danger_cqbRange = 60;
 force lambs_danger_disableAIAutonomousManoeuvres = false;
 force lambs_danger_disableAIDeployStaticWeapons = false;
-force lambs_danger_disableAIDodge = false;
 force lambs_danger_disableAIFindStaticWeapons = false;
-force lambs_danger_disableAIFleeing = false;
 force lambs_danger_disableAIHideFromTanksAndAircraft = false;
 force lambs_danger_disableAIPlayerGroup = false;
 force lambs_danger_disableAIPlayerGroupReaction = false;
-force lambs_danger_disableAIPlayerGroupSuppression = false;
 force lambs_danger_disableAutonomousFlares = false;
-force lambs_danger_disableAutonomousSmokeGrenades = false;
-force lambs_danger_indoorMove = 0.1;
-force lambs_danger_maxRevealValue = 1;
-force lambs_danger_minFriendlySuppressionDistance = 5;
-force lambs_danger_minSuppressionRange = 25;
 force lambs_danger_panicChance = 0.1;
-force lambs_danger_radioBackpack = 2000;
-force lambs_danger_radioDisabled = false;
-force lambs_danger_radioEast = 500;
-force lambs_danger_radioGuer = 500;
-force lambs_danger_radioShout = 100;
-force lambs_danger_radioWest = 500;
 
 // LAMBS Danger Eventhandlers
 force lambs_eventhandlers_ExplosionEventHandlerEnabled = true;
@@ -787,13 +767,27 @@ force lambs_eventhandlers_ExplosionReactionTime = 9;
 force lambs_wp_autoAddArtillery = false;
 
 // LAMBS Main
+force lambs_main_combatShareRange = 200;
 force lambs_main_debug_Drawing = false;
 force lambs_main_debug_FSM = false;
 force lambs_main_debug_FSM_civ = false;
 force lambs_main_debug_functions = false;
 force lambs_main_debug_RenderExpectedDestination = false;
 force lambs_main_disableAICallouts = false;
+force lambs_main_disableAIDodge = false;
+force lambs_main_disableAIFleeing = false;
 force lambs_main_disableAIGestures = false;
+force lambs_main_disablePlayerGroupSuppression = false;
+force lambs_main_indoorMove = 0.1;
+force lambs_main_maxRevealValue = 1;
+force lambs_main_minFriendlySuppressionDistance = 5;
+force lambs_main_minSuppressionRange = 25;
+force lambs_main_radioBackpack = 2000;
+force lambs_main_radioDisabled = false;
+force lambs_main_radioEast = 500;
+force lambs_main_radioGuer = 500;
+force lambs_main_radioShout = 100;
+force lambs_main_radioWest = 500;
 
 // NIArms
 force force niarms_accswitch = true;
