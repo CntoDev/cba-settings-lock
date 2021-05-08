@@ -468,7 +468,7 @@ acex_fortify_settingHint = 2;
 
 // ACEX Headless
 force force acex_headless_delay = 15;
-force force acex_headless_enabled = true;
+force acex_headless_enabled = true;
 force force acex_headless_endMission = 0;
 force force acex_headless_log = false;
 force force acex_headless_transferLoadout = 1;
@@ -542,12 +542,12 @@ acre_sys_zeus_zeusDefaultVoiceSource = false;
 // Aircraft Turbulence
 force force HELICOPTER_TURBULENCE_ENABLE_MASTER = true;
 force force HELICOPTER_TURBULENCE_ENABLE_WEATHEREFFECT = true;
-force force HELICOPTER_TURBULENCE_MAX_TURBULENCE = 15;
-force force HELICOPTER_TURBULENCE_MIN_TURBULENCE = 3;
+force force HELICOPTER_TURBULENCE_MAX_TURBULENCE = 9;
+force force HELICOPTER_TURBULENCE_MIN_TURBULENCE = 2;
 force force PLANE_TURBULENCE_ENABLE_MASTER = true;
 force force PLANE_TURBULENCE_ENABLE_WEATHEREFFECT = true;
-force force PLANE_TURBULENCE_MAX_TURBULENCE = 15;
-force force PLANE_TURBULENCE_MIN_TURBULENCE = 3;
+force force PLANE_TURBULENCE_MAX_TURBULENCE = 9;
+force force PLANE_TURBULENCE_MIN_TURBULENCE = 2;
 
 // Arma Additions
 force force a3aa_disable_channels_default = 0;
@@ -594,7 +594,7 @@ cba_optics_usePipOptics = true;
 cnto_littlebird_hud_colour = [0.3,1,0.3,0.5];
 cnto_littlebird_hud_enable = true;
 cnto_nv_color_mask_rgb = [0,0,0];
-force cnto_scope_remover_enable = false;
+force cnto_scope_remover_enable = true;
 
 // Community Base Addons - Network
 force force cba_network_loadoutValidation = 2;
@@ -707,8 +707,8 @@ force force emr_main_climbingEnabled = true;
 force force emr_main_climbOnDuty = 3.4;
 force force emr_main_climbOverDuty = 3;
 force force emr_main_dropDuty = 0.7;
-emr_main_dropViewElevation = -0.7;
-emr_main_enableWalkableSurface = true;
+force force emr_main_dropViewElevation = -0.7;
+force force emr_main_enableWalkableSurface = true;
 force force emr_main_enableWeightCheck = true;
 emr_main_hintType = 2;
 force force emr_main_jumpDuty = 1;
@@ -746,22 +746,22 @@ force force grad_trenches_functions_allowSmallEnvelope = true;
 force force grad_trenches_functions_allowTrenchDecay = false;
 force force grad_trenches_functions_allowVehicleEnvelope = true;
 force force grad_trenches_functions_bigEnvelopeDigTime = 40;
-force grad_trenches_functions_bigEnvelopeRemovalTime = -1;
+force force grad_trenches_functions_bigEnvelopeRemovalTime = -1;
 force force grad_trenches_functions_buildFatigueFactor = 1;
 force force grad_trenches_functions_camouflageRequireEntrenchmentTool = false;
 force force grad_trenches_functions_decayTime = 1800;
 force force grad_trenches_functions_giantEnvelopeDigTime = 90;
-force grad_trenches_functions_giantEnvelopeRemovalTime = -1;
+force force grad_trenches_functions_giantEnvelopeRemovalTime = -1;
 force force grad_trenches_functions_LongEnvelopeDigTime = 100;
-force grad_trenches_functions_LongEnvelopeRemovalTime = -1;
+force force grad_trenches_functions_LongEnvelopeRemovalTime = -1;
 force force grad_trenches_functions_shortEnvelopeDigTime = 20;
-force grad_trenches_functions_shortEnvelopeRemovalTime = -1;
+force force grad_trenches_functions_shortEnvelopeRemovalTime = -1;
 force force grad_trenches_functions_smallEnvelopeDigTime = 30;
-force grad_trenches_functions_smallEnvelopeRemovalTime = -1;
+force force grad_trenches_functions_smallEnvelopeRemovalTime = -1;
 force force grad_trenches_functions_stopBuildingAtFatigueMax = false;
 force force grad_trenches_functions_timeoutToDecay = 7200;
 force force grad_trenches_functions_vehicleEnvelopeDigTime = 120;
-force grad_trenches_functions_vehicleEnvelopeRemovalTime = -1;
+force force grad_trenches_functions_vehicleEnvelopeRemovalTime = -1;
 
 // LAMBS Danger
 force lambs_danger_cqbRange = 60;
@@ -799,7 +799,7 @@ force lambs_main_maxRevealValue = 1;
 force lambs_main_minFriendlySuppressionDistance = 5;
 force lambs_main_minSuppressionRange = 25;
 force lambs_main_radioBackpack = 2000;
-force lambs_main_radioDisabled = false;
+force lambs_main_radioDisabled = true;
 force lambs_main_radioEast = 500;
 force lambs_main_radioGuer = 500;
 force lambs_main_radioShout = 100;
