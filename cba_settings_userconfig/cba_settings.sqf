@@ -199,7 +199,7 @@ force force ace_maptools_rotateModifierKey = 1;
 // ACE Medical
 force force ace_medical_ai_enabledFor = 2;
 force force ace_medical_AIDamageThreshold = 1;
-force force ace_medical_bleedingCoefficient = 0.6;
+force force ace_medical_bleedingCoefficient = 0.8;
 force force ace_medical_blood_bloodLifetime = 600;
 force force ace_medical_blood_enabledFor = 2;
 force force ace_medical_blood_maxBloodObjects = 100;
@@ -258,7 +258,7 @@ force force ace_medical_treatment_treatmentTimeBodyBag = 15;
 force force ace_medical_treatment_treatmentTimeCPR = 15;
 force force ace_medical_treatment_treatmentTimeIV = 12;
 force force ace_medical_treatment_treatmentTimeSplint = 7;
-force force ace_medical_treatment_treatmentTimeTourniquet = 7;
+force force ace_medical_treatment_treatmentTimeTourniquet = 4;
 force force ace_medical_treatment_woundReopenChance = 1;
 force force ace_medical_treatment_woundStitchTime = 5;
 
