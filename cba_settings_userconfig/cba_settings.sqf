@@ -417,7 +417,7 @@ ace_vehicles_speedLimiterStep = 5;
 
 // ACE View Distance Limiter
 force force ace_viewdistance_enabled = true;
-ace_viewdistance_limitViewDistance = 10000;
+force ace_viewdistance_limitViewDistance = 10000;
 ace_viewdistance_objectViewDistanceCoeff = 0;
 ace_viewdistance_viewDistanceAirVehicle = 9;
 ace_viewdistance_viewDistanceLandVehicle = 6;
@@ -478,10 +478,10 @@ force force acex_sitting_enable = true;
 
 // ACEX View Restriction
 force force acex_viewrestriction_mode = 0;
-acex_viewrestriction_modeSelectiveAir = 0;
-acex_viewrestriction_modeSelectiveFoot = 0;
-acex_viewrestriction_modeSelectiveLand = 0;
-acex_viewrestriction_modeSelectiveSea = 0;
+force acex_viewrestriction_modeSelectiveAir = 0;
+force acex_viewrestriction_modeSelectiveFoot = 0;
+force acex_viewrestriction_modeSelectiveLand = 0;
+force acex_viewrestriction_modeSelectiveSea = 0;
 acex_viewrestriction_preserveView = false;
 
 // ACEX Volume
