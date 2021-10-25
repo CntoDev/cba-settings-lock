@@ -168,7 +168,7 @@ force ace_map_BFT_Enabled = false;
 force ace_map_BFT_HideAiGroups = true;
 force force ace_map_BFT_Interval = 1;
 force ace_map_BFT_ShowPlayerNames = false;
-force force ace_map_DefaultChannel = 0;
+force ace_map_DefaultChannel = 0;
 force force ace_map_mapGlow = true;
 force force ace_map_mapIllumination = true;
 force force ace_map_mapLimitZoom = false;
@@ -416,7 +416,7 @@ force force ace_vehicles_keepEngineRunning = false;
 ace_vehicles_speedLimiterStep = 5;
 
 // ACE View Distance Limiter
-force force ace_viewdistance_enabled = true;
+ace_viewdistance_enabled = true;
 force ace_viewdistance_limitViewDistance = 10000;
 ace_viewdistance_objectViewDistanceCoeff = 0;
 ace_viewdistance_viewDistanceAirVehicle = 9;
@@ -550,8 +550,8 @@ force force PLANE_TURBULENCE_MAX_TURBULENCE = 9;
 force force PLANE_TURBULENCE_MIN_TURBULENCE = 2;
 
 // Arma Additions
-force force a3aa_disable_channels_default = 0;
-force force a3aa_disable_channels_list = "[1,2,4,5]";
+force a3aa_disable_channels_default = 0;
+force a3aa_disable_channels_list = "[1,2,4,5]";
 force force a3aa_ee_basic_vehicle_cargo_cleanonly = true;
 a3aa_ee_extended_gear_player_insignia = "";
 force force a3aa_ee_extended_gear_useprofile = true;
