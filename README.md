@@ -17,4 +17,4 @@ This repository is maintained by the CNTO [SSgt Team](https://github.com/orgs/Cn
 ## Copyright License
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
-This work is licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0).
+This work is licensed under [CC-BY-SA-4.0](http://creativecommons.org/licenses/by-sa/4.0).
