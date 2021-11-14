@@ -1,6 +1,6 @@
 <!--- CNTO GitHub Repository LICENSE file -->
 
-## Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) - Summary <!--- condensed version of the license -->
+## Attribution-ShareAlike 4.0 International (CC-BY-SA-4.0) - Summary <!--- condensed version of the license -->
 
 *This is a human-readable summary of (and not a substitute for) the [license](https://creativecommons.org/licenses/by-sa/4.0/legalcode)*.
 
@@ -29,7 +29,7 @@ No warranties are given. The license may not give you all of the permissions nec
 
 ----------------------------------------------------------------------
 
-##  Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) - Full License <!--- legal code version of the license -->
+##  Attribution-ShareAlike 4.0 International (CC-BY-SA-4.0) - Full License <!--- legal code version of the license -->
 
 =======================================================================
 
