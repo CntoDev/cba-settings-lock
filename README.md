@@ -1,8 +1,20 @@
-# How to Maintain
+<!--- CNTO GitHub Repository README file -->
 
-For detailed information on how to maintain the CBA Setting Lock mod please check the <a rel="wiki" href="https://github.com/CntoDev/cba-settings-lock/wiki/Updating-settings-on-modset-update">wiki</a>.
+## CBA Settings Lock <!--- Repository name with short description of the repo and, if available, link to the wiki -->
+
+A small server-side mod to lock down and enforce [CBA Settings](https://cbateam.github.io/CBA_A3/docs/files/overview-txt.html) for Arma 3 mods.
+
+For detailed information on how to setup and utilize the CBA Settings Lock mod please check the [Wiki](https://github.com/CntoDev/cba-settings-lock/wiki).
+
+*Developed by the Arma 3 community [Carpe Noctem - Tactical Operations](https://www.carpenoctem.co/).*
 
 
-# Copyright License
+## Maintenance <!--- Who is responsible for this repository (i.e. which Branch / GitHub team) with link to the respective GitHub team -->
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+This repository is maintained by the CNTO [SSgt Team](https://github.com/orgs/CntoDev/teams/ssgt).
+
+
+## Copyright License
+
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
+This work is licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0).
