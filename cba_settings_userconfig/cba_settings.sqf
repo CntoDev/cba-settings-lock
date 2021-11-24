@@ -468,10 +468,10 @@ acex_fortify_settingHint = 2;
 
 // ACEX Headless
 force force acex_headless_delay = 15;
-force acex_headless_enabled = true;
+force force acex_headless_enabled = false;
 force force acex_headless_endMission = 0;
 force force acex_headless_log = false;
-force force acex_headless_transferLoadout = 1;
+force force acex_headless_transferLoadout = 0;
 
 // ACEX Sitting
 force force acex_sitting_enable = true;
