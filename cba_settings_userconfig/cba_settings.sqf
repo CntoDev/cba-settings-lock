@@ -105,7 +105,7 @@ force acex_field_rations_waterSourceActions = 2;
 
 // ACE Fire
 force force ace_fire_dropWeapon = 1;
-force force ace_fire_enabled = true;
+force force ace_fire_enabled = false;
 force force ace_fire_enableFlare = false;
 force force ace_fire_enableScreams = true;
 
@@ -113,7 +113,7 @@ force force ace_fire_enableScreams = true;
 force force ace_fortify_markObjectsOnMap = 1;
 force force ace_fortify_timeCostCoefficient = 1;
 force force ace_fortify_timeMin = 1.5;
-force force acex_fortify_settingHint = 1;
+acex_fortify_settingHint = 1;
 
 // ACE Fragmentation Simulation
 force force ace_frag_enabled = true;
@@ -307,7 +307,7 @@ ace_interact_menu_moveToRoot__ACE_TeamManagement__diwako_dui_buddy_buddy_action_
 force force ace_cargo_enable = true;
 force force ace_cargo_enableRename = false;
 force force ace_cargo_loadTimeCoefficient = 5;
-force force ace_cargo_openAfterUnload = 0;
+ace_cargo_openAfterUnload = 0;
 force force ace_cargo_paradropTimeCoefficent = 2.5;
 force force ace_rearm_distance = 20;
 force force ace_rearm_level = 1;
@@ -330,7 +330,7 @@ force force ace_repair_repairDamageThreshold_engineer = 0.4;
 force force ace_repair_wheelRepairRequiredItems = [];
 
 // ACE Magazine Repack
-force force ace_magazinerepack_repackLoadedMagazines = true;
+ace_magazinerepack_repackLoadedMagazines = true;
 force force ace_magazinerepack_timePerAmmo = 1.5;
 force force ace_magazinerepack_timePerBeltLink = 8;
 force force ace_magazinerepack_timePerMagazine = 2;
