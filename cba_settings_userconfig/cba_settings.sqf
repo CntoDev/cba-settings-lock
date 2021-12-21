@@ -110,7 +110,7 @@ force force ace_fire_enableFlare = false;
 force force ace_fire_enableScreams = true;
 
 // ACE Fortify
-force force ace_fortify_markObjectsOnMap = 1;
+force ace_fortify_markObjectsOnMap = 1;
 force force ace_fortify_timeCostCoefficient = 1;
 force force ace_fortify_timeMin = 1.5;
 acex_fortify_settingHint = 1;
@@ -151,7 +151,7 @@ force force ace_hearing_unconsciousnessVolume = 0.4;
 
 // ACE Interaction
 force force ace_interaction_disableNegativeRating = true;
-force force ace_interaction_enableGroupRenaming = false;
+force ace_interaction_enableGroupRenaming = true;
 force force ace_interaction_enableMagazinePassing = true;
 force force ace_interaction_enableTeamManagement = true;
 force force ace_interaction_enableWeaponAttachments = true;
