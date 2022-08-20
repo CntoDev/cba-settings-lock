@@ -80,7 +80,7 @@ force force ace_csw_ammoHandling = 2;
 force force ace_csw_defaultAssemblyMode = false;
 ace_csw_dragAfterDeploy = false;
 force force ace_csw_handleExtraMagazines = true;
-force ace_csw_handleExtraMagazinesType = 0;
+force force ace_csw_handleExtraMagazinesType = 0;
 force force ace_csw_progressBarTimeCoefficent = 1;
 
 // ACE Dragging
@@ -340,7 +340,7 @@ force force ace_repair_repairDamageThreshold_engineer = 0.4;
 force force ace_repair_wheelRepairRequiredItems = [];
 
 // ACE Magazine Repack
-ace_magazinerepack_repackAnimation = true;
+force force ace_magazinerepack_repackAnimation = true;
 ace_magazinerepack_repackLoadedMagazines = true;
 force force ace_magazinerepack_timePerAmmo = 1.5;
 force force ace_magazinerepack_timePerBeltLink = 8;
@@ -420,7 +420,7 @@ force force ace_medical_gui_enableSelfActions = true;
 ace_medical_gui_interactionMenuShowTriage = 1;
 force force ace_medical_gui_maxDistance = 3;
 ace_medical_gui_openAfterTreatment = true;
-force ace_medical_gui_showBloodlossEntry = true;
+force force ace_medical_gui_showBloodlossEntry = true;
 force force ace_medical_ivFlowRate = 2;
 force force ace_medical_limping = 1;
 force force ace_medical_painCoefficient = 1;
@@ -518,8 +518,8 @@ force force ace_finger_enabled = true;
 ace_finger_indicatorColor = [0.83,0.68,0.21,0.75];
 force force ace_finger_indicatorForSelf = true;
 force force ace_finger_maxRange = 2;
-force ace_finger_proximityScaling = false;
-force ace_finger_sizeCoef = 1;
+force force ace_finger_proximityScaling = false;
+force force ace_finger_sizeCoef = 1;
 
 // ACE Pylons
 force force ace_pylons_enabledForZeus = true;
@@ -584,8 +584,8 @@ force force ace_gunbag_swapGunbagEnabled = true;
 force force ace_hitreactions_minDamageToTrigger = 0.1;
 ace_inventory_inventoryDisplaySize = 0;
 force force ace_laser_dispersionCount = 2;
-force ace_laser_showLaserOnMap = 1;
-force ace_marker_flags_placeAnywhere = false;
+force force ace_laser_showLaserOnMap = 1;
+force force ace_marker_flags_placeAnywhere = false;
 force force ace_microdagr_mapDataAvailable = 2;
 force force ace_microdagr_waypointPrecision = 3;
 force force ace_noradio_enabled = true;
@@ -643,10 +643,10 @@ force force ace_vehiclelock_vehicleStartingLockState = -1;
 ace_vehicles_hideEjectAction = true;
 force force ace_vehicles_keepEngineRunning = false;
 ace_vehicles_speedLimiterStep = 5;
-force ace_viewports_enabled = true;
+force force ace_viewports_enabled = true;
 
 // ACE View Distance Limiter
-force ace_viewdistance_enabled = true;
+ace_viewdistance_enabled = true;
 force ace_viewdistance_limitViewDistance = 10000;
 ace_viewdistance_objectViewDistanceCoeff = 0;
 ace_viewdistance_viewDistanceAirVehicle = 9;
