@@ -51,6 +51,10 @@ force ace_captives_allowSurrender = true;
 force ace_captives_requireSurrender = 1;
 force ace_captives_requireSurrenderAi = false;
 
+// ACE Casings
+ace_casings_enabled = true;
+ace_casings_maxCasings = 250;
+
 // ACE Common
 force ace_common_allowFadeMusic = true;
 force ace_common_checkPBOsAction = 0;
@@ -62,7 +66,6 @@ ace_common_epilepsyFriendlyMode = false;
 ace_common_progressBarInfo = 2;
 ace_common_settingFeedbackIcons = 1;
 ace_common_settingProgressBarLocation = 0;
-force ace_noradio_enabled = true;
 
 // ACE Cook off
 force ace_cookoff_ammoCookoffDuration = 1;
@@ -77,6 +80,7 @@ force ace_csw_ammoHandling = 2;
 force ace_csw_defaultAssemblyMode = false;
 ace_csw_dragAfterDeploy = false;
 force ace_csw_handleExtraMagazines = true;
+force ace_csw_handleExtraMagazinesType = 0;
 force ace_csw_progressBarTimeCoefficent = 1;
 
 // ACE Dragging
@@ -232,6 +236,7 @@ ace_interact_menu_moveToRoot__ACE_Equipment__ace_interaction_weaponAttachments =
 ace_interact_menu_moveToRoot__ACE_Equipment__ace_kestrel4500_open = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__ace_kestrel4500_open__ace_kestrel4500_hide = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__ace_kestrel4500_open__ace_kestrel4500_show = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_marker_flags = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__ace_microdagr_configure = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__ace_microdagr_configure__ace_microdagr_close = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__ace_microdagr_configure__ace_microdagr_show = false;
@@ -335,6 +340,7 @@ force ace_repair_repairDamageThreshold_engineer = 0.4;
 force ace_repair_wheelRepairRequiredItems = [];
 
 // ACE Magazine Repack
+ace_magazinerepack_repackAnimation = true;
 ace_magazinerepack_repackLoadedMagazines = true;
 force ace_magazinerepack_timePerAmmo = 1.5;
 force ace_magazinerepack_timePerBeltLink = 8;
@@ -414,6 +420,7 @@ ace_medical_gui_enableSelfActions = true;
 ace_medical_gui_interactionMenuShowTriage = 1;
 force ace_medical_gui_maxDistance = 3;
 ace_medical_gui_openAfterTreatment = true;
+force ace_medical_gui_showBloodlossEntry = true;
 force ace_medical_ivFlowRate = 1;
 force ace_medical_limping = 1;
 force ace_medical_painCoefficient = 1;
@@ -511,6 +518,8 @@ force ace_finger_enabled = false;
 ace_finger_indicatorColor = [0.83,0.68,0.21,0.75];
 ace_finger_indicatorForSelf = true;
 force ace_finger_maxRange = 4;
+force ace_finger_proximityScaling = false;
+force ace_finger_sizeCoef = 1;
 
 // ACE Pylons
 force ace_pylons_enabledForZeus = true;
@@ -575,8 +584,11 @@ force ace_gunbag_swapGunbagEnabled = true;
 force ace_hitreactions_minDamageToTrigger = 0.1;
 ace_inventory_inventoryDisplaySize = 0;
 force ace_laser_dispersionCount = 2;
+force ace_laser_showLaserOnMap = 1;
+force ace_marker_flags_placeAnywhere = false;
 force ace_microdagr_mapDataAvailable = 2;
 force ace_microdagr_waypointPrecision = 3;
+force ace_noradio_enabled = true;
 ace_optionsmenu_showNewsOnMainMenu = true;
 force ace_overpressure_distanceCoefficient = 1;
 force ace_parachute_failureChance = 0;
@@ -601,6 +613,7 @@ ace_ui_gunnerWeaponLowerInfoBackground = true;
 ace_ui_gunnerWeaponName = true;
 ace_ui_gunnerWeaponNameBackground = true;
 ace_ui_gunnerZeroing = true;
+ace_ui_hideDefaultActionIcon = false;
 ace_ui_magCount = true;
 ace_ui_soldierVehicleWeaponInfo = true;
 ace_ui_staminaBar = true;
@@ -630,6 +643,7 @@ force ace_vehiclelock_vehicleStartingLockState = -1;
 ace_vehicles_hideEjectAction = true;
 force ace_vehicles_keepEngineRunning = false;
 ace_vehicles_speedLimiterStep = 5;
+force ace_viewports_enabled = true;
 
 // ACE View Distance Limiter
 force ace_viewdistance_enabled = true;
