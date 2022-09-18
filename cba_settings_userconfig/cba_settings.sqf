@@ -72,7 +72,7 @@ ace_common_settingProgressBarLocation = 0;
 
 // ACE Cook off
 force force ace_cookoff_ammoCookoffDuration = 0.3;
-force ace_cookoff_destroyVehicleAfterCookoff = false;
+force force ace_cookoff_destroyVehicleAfterCookoff = false;
 force force ace_cookoff_enable = 0;
 force force ace_cookoff_enableAmmobox = true;
 force force ace_cookoff_enableAmmoCookoff = true;
@@ -328,7 +328,7 @@ force force ace_rearm_distance = 20;
 force force ace_rearm_level = 1;
 force force ace_rearm_supply = 0;
 force force ace_refuel_hoseLength = 12;
-force ace_refuel_progressDuration = 2;
+force force ace_refuel_progressDuration = 2;
 force force ace_refuel_rate = 1;
 force force ace_repair_addSpareParts = true;
 force force ace_repair_autoShutOffEngineWhenStartingRepair = true;
@@ -344,7 +344,7 @@ force force ace_repair_miscRepairRequiredItems = ["ace_repair_anyToolKit"];
 force force ace_repair_repairDamageThreshold = 0.6;
 force force ace_repair_repairDamageThreshold_engineer = 0.4;
 force force ace_repair_wheelRepairRequiredItems = [];
-force ace_towing_addRopeToVehicleInventory = true;
+force force ace_towing_addRopeToVehicleInventory = false;
 
 // ACE Magazine Repack
 force force ace_magazinerepack_repackAnimation = true;
@@ -654,7 +654,7 @@ ace_vehicles_speedLimiterStep = 5;
 force force ace_viewports_enabled = true;
 
 // ACE View Distance Limiter
-force ace_viewdistance_enabled = true;
+ace_viewdistance_enabled = true;
 force ace_viewdistance_limitViewDistance = 10000;
 ace_viewdistance_objectViewDistanceCoeff = 0;
 ace_viewdistance_viewDistanceAirVehicle = 9;
