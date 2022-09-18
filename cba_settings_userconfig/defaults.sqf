@@ -25,7 +25,7 @@ ace_advanced_throwing_showThrowArc = true;
 
 // ACE Advanced Vehicle Damage
 force ace_vehicle_damage_enableCarDamage = false;
-force ace_vehicle_damage_enabled = true;
+force ace_vehicle_damage_enabled = false;
 force ace_vehicle_damage_removeAmmoDuringCookoff = true;
 
 // ACE Arsenal
@@ -36,6 +36,9 @@ force ace_arsenal_enableIdentityTabs = true;
 ace_arsenal_enableModIcons = true;
 ace_arsenal_EnableRPTLog = false;
 ace_arsenal_fontHeight = 4.5;
+ace_arsenal_loadoutsSaveFace = false;
+ace_arsenal_loadoutsSaveInsignia = true;
+ace_arsenal_loadoutsSaveVoice = false;
 
 // ACE Artillery
 force ace_artillerytables_advancedCorrections = false;
@@ -69,6 +72,7 @@ ace_common_settingProgressBarLocation = 0;
 
 // ACE Cook off
 force ace_cookoff_ammoCookoffDuration = 1;
+force ace_cookoff_destroyVehicleAfterCookoff = false;
 force ace_cookoff_enable = 2;
 force ace_cookoff_enableAmmobox = true;
 force ace_cookoff_enableAmmoCookoff = true;
@@ -314,6 +318,7 @@ ace_interact_menu_moveToRoot__SSS_main__SSS_logistics = false;
 ace_interact_menu_moveToRoot__SSS_main__SSS_transport = false;
 
 // ACE Logistics
+ace_cargo_carryAfterUnload = true;
 force ace_cargo_enable = true;
 ace_cargo_enableRename = true;
 force ace_cargo_loadTimeCoefficient = 5;
@@ -323,6 +328,7 @@ force ace_rearm_distance = 20;
 force ace_rearm_level = 0;
 force ace_rearm_supply = 0;
 force ace_refuel_hoseLength = 12;
+force ace_refuel_progressDuration = 2;
 force ace_refuel_rate = 1;
 force ace_repair_addSpareParts = true;
 force ace_repair_autoShutOffEngineWhenStartingRepair = false;
@@ -338,6 +344,7 @@ force ace_repair_miscRepairRequiredItems = ["ace_repair_anyToolKit"];
 force ace_repair_repairDamageThreshold = 0.6;
 force ace_repair_repairDamageThreshold_engineer = 0.4;
 force ace_repair_wheelRepairRequiredItems = [];
+force ace_towing_addRopeToVehicleInventory = true;
 
 // ACE Magazine Repack
 ace_magazinerepack_repackAnimation = true;
@@ -640,6 +647,7 @@ force ace_vehiclelock_lockVehicleInventory = false;
 force ace_vehiclelock_vehicleStartingLockState = -1;
 
 // ACE Vehicles
+force ace_novehicleclanlogo_enabled = false;
 ace_vehicles_hideEjectAction = true;
 force ace_vehicles_keepEngineRunning = false;
 ace_vehicles_speedLimiterStep = 5;

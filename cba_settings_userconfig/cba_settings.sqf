@@ -36,6 +36,9 @@ force force ace_arsenal_enableIdentityTabs = true;
 ace_arsenal_enableModIcons = true;
 ace_arsenal_EnableRPTLog = false;
 ace_arsenal_fontHeight = 4.5;
+ace_arsenal_loadoutsSaveFace = false;
+ace_arsenal_loadoutsSaveInsignia = true;
+ace_arsenal_loadoutsSaveVoice = false;
 
 // ACE Artillery
 force force ace_artillerytables_advancedCorrections = false;
@@ -69,6 +72,7 @@ ace_common_settingProgressBarLocation = 0;
 
 // ACE Cook off
 force force ace_cookoff_ammoCookoffDuration = 0.3;
+force ace_cookoff_destroyVehicleAfterCookoff = false;
 force force ace_cookoff_enable = 0;
 force force ace_cookoff_enableAmmobox = true;
 force force ace_cookoff_enableAmmoCookoff = true;
@@ -314,6 +318,7 @@ ace_interact_menu_moveToRoot__SSS_main__SSS_logistics = false;
 ace_interact_menu_moveToRoot__SSS_main__SSS_transport = false;
 
 // ACE Logistics
+ace_cargo_carryAfterUnload = true;
 force force ace_cargo_enable = true;
 force force ace_cargo_enableRename = false;
 force force ace_cargo_loadTimeCoefficient = 5;
@@ -323,6 +328,7 @@ force force ace_rearm_distance = 20;
 force force ace_rearm_level = 1;
 force force ace_rearm_supply = 0;
 force force ace_refuel_hoseLength = 12;
+force ace_refuel_progressDuration = 2;
 force force ace_refuel_rate = 1;
 force force ace_repair_addSpareParts = true;
 force force ace_repair_autoShutOffEngineWhenStartingRepair = true;
@@ -338,6 +344,7 @@ force force ace_repair_miscRepairRequiredItems = ["ace_repair_anyToolKit"];
 force force ace_repair_repairDamageThreshold = 0.6;
 force force ace_repair_repairDamageThreshold_engineer = 0.4;
 force force ace_repair_wheelRepairRequiredItems = [];
+force ace_towing_addRopeToVehicleInventory = true;
 
 // ACE Magazine Repack
 force force ace_magazinerepack_repackAnimation = true;
@@ -640,13 +647,14 @@ force force ace_vehiclelock_lockVehicleInventory = true;
 force force ace_vehiclelock_vehicleStartingLockState = -1;
 
 // ACE Vehicles
+force ace_novehicleclanlogo_enabled = false;
 ace_vehicles_hideEjectAction = true;
 force force ace_vehicles_keepEngineRunning = false;
 ace_vehicles_speedLimiterStep = 5;
 force force ace_viewports_enabled = true;
 
 // ACE View Distance Limiter
-ace_viewdistance_enabled = true;
+force ace_viewdistance_enabled = true;
 force ace_viewdistance_limitViewDistance = 10000;
 ace_viewdistance_objectViewDistanceCoeff = 0;
 ace_viewdistance_viewDistanceAirVehicle = 9;
